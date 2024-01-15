@@ -2,5 +2,7 @@
 
 print("Good morning, little one!")
 
+print("Goodbye!")
+
 
 
