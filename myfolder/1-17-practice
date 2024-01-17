@@ -1,1 +1,130 @@
-在那个软件里面 >> open file >> 直接打开就是code
+*In that software (visual studio code) >> click "open file" >> select the file/edge >> then can see the code
+
+today's in-class test:
+
+the html code:
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Warwick Ramen Stand</title>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <header class="header-class">
+            <h1>Welcome to Warwick Ramen Stand</h1>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="About">About</a></li>
+                <li><a href="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+        <section>
+            <h2>Our Menu</h2>
+            <ul class="menu-items">
+                <li>
+                    <h3>Tonkotsu Ramen</h3>
+                    <img src="images/Tonkotsu.jpg" alt="Tonkotsu Ramen">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                </li>
+                <li>
+                    <h3>Shoyu Ramen</h3>
+                    <img src="images/Shoyu.jpg" alt="Shoyu Ramen">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                </li>
+                <li>
+                    <h3>Miso Ramen</h3>
+                    <img src="images/Miso.jpg" alt="Miso Ramen">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                </li>
+                <li>
+                    <h3>Veggie Ramen</h3>
+                    <img src="images/Veggie.jpg" alt="Veggie Ramen">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="OH-header">Opening Hours</h2>
+            <table class="table">
+                <tr>
+                    <th>Day</th>
+                    <th>Opening Time</th>
+                    <th>Closing Time</th>
+                </tr>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>11:00 AM</td>
+                    <td>10:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>12:00 PM</td>
+                    <td>11:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+        </section>
+        <footer class="F">
+            <p>Contact us at ramen@warwick.ac.uk</p>
+        </footer>
+    </body>
+
+</html>
+
+
+
+
+the CSS code:
+.header-class {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.nav {
+    background-color: blanchedalmond;
+    line-height: 20px;
+}
+
+.menu-items {
+    font-style: italic;
+    font-size: large;
+}
+
+.table th {
+    border: 5px solid brown;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 50px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.F {
+    text-align: center;
+    background-color: burlywood;
+}
+
+
+
+You must link currently !!!!!
+ID and class are also important !!!!!!!!
+
+
+
+over.
+
+
+
+
