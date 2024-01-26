@@ -1,0 +1,43 @@
+def case_counter(text):
+    # Your code goes here
+    # Remember to count uppercase and lowercase letters and ignore non-alphabetic characters
+    uppercase_count = 0
+    lowercase_count = 0
+
+    # Iterate through each character in the string
+    for char in text:
+        # Check if the character is an alphabetic letter
+        if char.isalpha():
+            # Increment the respective count based on the case
+            if char.isupper():
+                uppercase_count += 1
+            elif char.islower():
+                lowercase_count += 1
+
+    # Print the counts
+    print("Uppercase Count:", uppercase_count)
+    print("Lowercase Count:", lowercase_count)
+    
+    
+    # Delete this after implementing some code inside this function.
+
+
+# Test cases
+case_counter("Hello World!")  # Expected: Uppercase letters: 2, Lowercase letters: 8
+case_counter("PYTHON")  # Expected: Uppercase letters: 6, Lowercase letters: 0
+case_counter("python")  # Expected: Uppercase letters: 0, Lowercase letters: 6
+case_counter("1234!@#$")  # Expected: Uppercase letters: 0, Lowercase letters: 0
+
+
+
+test result:
+PS C:\Users\lenovo> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Downloads/case_counter.py
+Uppercase Count: 2
+Lowercase Count: 8
+Uppercase Count: 6
+Lowercase Count: 0
+Uppercase Count: 0
+Lowercase Count: 6
+Uppercase Count: 0
+Lowercase Count: 0
+PS C:\Users\lenovo> 
